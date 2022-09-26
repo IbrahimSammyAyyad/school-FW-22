@@ -1,0 +1,11 @@
+//Ibrahim Sammy Ayyad, Data Structures ASSIGNEMNT 1
+//Tues-Thurs 4:00-5:15 class.
+
+
+in order to use the functions in this program, you simply need to change the pre-existing numbers in the function calls (near the bottom of main().)
+
+For example, the function replace(&int[], int[], int, int) has 2 non-changeable values at the start. these are of course the pointer array and original array. The 3rd value is what location of 'i' you would like to be affected, the 4th value is what you want it to change to. 
+
+replace (&a_ints, a_ints, 1, 100); will first clone the array "a_ints" and then replace a_ints[1] with the value "100"
+
+adelete(&a_ints, a_ints, 0); will first clone the array "a_ints" and then turn a_ints[0] with a value of null. 
